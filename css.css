@@ -1,70 +1,35 @@
-/* Banner */
-#img {
-    background: url(img/Leopard-tree-Kenya-Masai-Mara-National-Reserve.webp);
-    background-size: cover;
-}
 
-/* banner text */
-#img h1 {
-    text-align: center;
-    padding: 265px 0px 75px;
-    margin: 0px;
-    color: white;
-    font-size: 50px;
-}
-/*site body layout*/
-body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-    background: #edd5b4;
-}
-
-div#content {
-    padding: 10px;
-}
-.facts{
-    padding: 10px;
-}
-#form-contact {
-    padding: 10px;
-}
-main {
-    background: #fcf8f4;
-    max-width: 80%;
-    margin: auto;
-}
-
-/* menu list  */
-div#nav ul {
+/* top links */
+div#manpinder-link-list ul {
     list-style: none;
-    display: inline-flex;
-    justify-content: space-evenly;
-    padding: 0px;
-    margin: 0px;
     width: 100%;
 }
-
-div#nav ul li {
-    width: 100%;
+.home-link{
+    width:32%;
+    float:left;
     text-align: center;
     font-size: 20px;
-    padding: 10px;
-    text-transform: uppercase;
+}
+.story-link{
+    width:33%;
+    float:left;
+    text-align: center;
+    font-size: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.contact-link{
+    width:32%;
+    float:right;
+    text-align: center;
+    font-size: 20px;
 }
 
-div#nav ul li:nth-child(2) {
-    border: 1px solid black;
-    border-top: 0px;
-    border-bottom: 0px;
-}
-
-/* layout */
+/* layout  for the website*/
 .flex {
     display: flex;
 }
-
-div#content img {
+div#content-for-leopard img {
     width: 100%;
 }
 
@@ -81,14 +46,14 @@ h2 {
     margin: 11px 0px;
 }
 
-div#content p {
+div#content-for-leopard p {
     padding: 0px 18px;
     margin: 0px;
     font-size: 21px;
 }
 
-/* facts area */
-.facts ul {
+/* facts section about leopard */
+.facts-of-Leopard ul {
     padding-top: 1px;
     font-size: 21px;
     padding-left: 25px;
@@ -100,12 +65,12 @@ form {
     padding: 18px 14px;
     border-color: black;
 }
-.full-width {
+.full-width-input {
     width: 100%;
     margin-top: 12px;
     margin-bottom: 17px;
 }
-.formtext {
+.formtext-info {
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: 7px;
@@ -122,8 +87,44 @@ form {
     background: transparent;
 }
 
-/* footer */
+/* footer for the website*/
 footer {
     padding: 10px;
     text-align: right;
+}
+/* top-Banner */
+#img-of-Leopard {
+    background: url(img/Leopard-tree-Kenya-Masai-Mara-National-Reserve.webp);
+    background-size: cover;
+}
+
+/* banner text */
+#img-of-Leopard h1 {
+    text-align: center;
+    padding: 265px 0px 75px;
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+}
+/*site body layout*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    background: #edd5b4;
+}
+
+div#content-for-leopard {
+    padding: 10px;
+}
+.facts-of-Leopard{
+    padding: 10px;
+}
+#form-contact {
+    padding: 10px;
+}
+main {
+    background: #fcf8f4;
+    max-width: 80%;
+    margin: auto;
 }
